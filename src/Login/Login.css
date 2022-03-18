@@ -1,5 +1,5 @@
 .background{
-    background-image: url(./b.jpg);
+    background-image: url(./b.jpeg);
     background-position:center;
     background-repeat: repeat;
     background-size: cover;
@@ -11,6 +11,7 @@
     flex-direction: column;
     
 }
+
 .gicon{
     height: 60px;
     align-items: center;

@@ -89,6 +89,7 @@ function Login() {
 
         <GoogleLogin
          render={(renderProps) => (<div className='loginText'>
+            
           <img  onClick={renderProps.onClick} src={g} className="gicon" />
           <text style={{marginTop:"10px"}} onClick={renderProps.onClick} className='loginText'>Login</text>
         </div>)}
