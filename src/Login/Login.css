@@ -1,0 +1,156 @@
+.background{
+    background-image: url(./b.jpg);
+    background-position:center;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;   
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+    
+}
+.gicon{
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+}
+.gicon:hover{
+    cursor: pointer;
+
+}
+.loginText{
+    text-decoration:wavy;
+    
+    color: rgb(184, 98, 98);
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    font-family: 'Kanit', sans-serif;
+    flex-direction: column;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.loginText:hover{
+    transform: scaleX(1);
+    transition: 0.2s;
+    color: brown;
+}
+
+.logged{
+
+    background-image: url(./logged.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;   
+   
+}
+.name{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Righteous', cursive;
+    color: yellow;
+    margin-bottom: 10px;
+}
+.profileImage{
+  
+     margin-top: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;  
+}
+.screen{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+
+    
+}
+.screen button{
+    color: rgb(224, 173, 131);
+    background-color:  rgb(78, 9, 5);
+    font-family: 'Chakra Petch', sans-serif;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 50px;
+    cursor: pointer;
+    width: 200px;
+    margin-bottom: 120px;
+}
+.screen button:hover{
+    background-color: rgb(95, 42, 41);
+}
+
+
+.loggedoutText{
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    align-items: flex-start;
+    justify-content: left;
+    text-align: left;
+    display: flex;
+    color: rgb(195, 231, 94);
+    font-weight: bold;
+    margin-left: 5px;
+}
+.loggedoutText:hover{
+    transform: scaleX(1);
+    transition: 0.2s;
+    color: brown;
+}
+
+.quotes{
+    
+    margin-top: 110px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.quotes .author{
+    margin-top: 20px;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    display: flex;
+    font-family: cursive;
+    color: rgb(206, 159, 72);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

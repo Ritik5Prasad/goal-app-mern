@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React,{useState} from 'react'
+import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import Todo from './Todo/Todo'
+import Login from './Login/Login'
+import './App.css'
+export const CredentialsContext = React.createContext();
 function App() {
+  const credentialsState = useState(null);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    
+    <BrowserRouter>
+     <CredentialsContext.Provider value={credentialsState}>
+        <Routes>
+          <Route exact path='/' element={<Login />}>
+            </Route>
+          <Route   path='/Todo'      element={<Todo />}> 
+           </Route>
+           </Routes>
+           </CredentialsContext.Provider>
+    </BrowserRouter>
+    
+  )
 }
 
-export default App;
+export default App
