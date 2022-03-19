@@ -83,7 +83,7 @@ function Login() {
         {/* <pre>{JSON.stringify(user, null, 2)}</pre> */}
         <text style={{marginTop:"10px"}} ></text>
         <Link className='screen'  to='/Todo' onClick={setDb} >
-          <button >Make Some new Goals!!!</button></Link>
+          <button onClick={setDb}>Make Some new Goals!!!</button></Link>
         
       </div> :<div className='background'>
 

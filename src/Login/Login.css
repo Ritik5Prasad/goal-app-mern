@@ -123,9 +123,12 @@
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    height: 120px;
+    height: auto;
     align-items: center;
     justify-content: center;
+    max-height: 200px;
+    
+    
     padding: 10px;
     border-radius: 10px;
 

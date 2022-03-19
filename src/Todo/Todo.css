@@ -145,7 +145,8 @@
     overflow: hidden;
 }
 .gl .rightside button{
-    width: 90px;
+    width: auto;
+    max-width: 100px;
     height: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;

@@ -72,12 +72,17 @@ function Todo() {
   const[deleted,setDeleted]=useState("")
   const [credentials, setCredentials] = useContext(CredentialsContext);
   const [enteredText,setEnteredText]=useState("") 
+  
   useEffect(()=>{
     if(credentials==null)
-    return
+  return
+    else
     Axios.get('https://goal-app-fullstack.herokuapp.com/read',{
-      user:credentials.user
+      headers:{
+        user:credentials.user
+      } 
     }).then((response)=>{
+    
       setGoalList(response.data);
       
     })
